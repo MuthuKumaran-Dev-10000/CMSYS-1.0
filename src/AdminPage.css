@@ -1,0 +1,37 @@
+/* AdminPage.css */
+
+.feature-card {
+    color: #333;
+    text-decoration: none;
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .feature-icon {
+    font-size: 3rem;
+    color: #007bff;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+  
+  .card-body:hover {
+    background-color: #f8f9fa; /* Light background on hover */
+    transition: background-color 0.3s;
+  }
+  
