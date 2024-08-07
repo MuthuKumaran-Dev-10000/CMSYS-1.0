@@ -1,0 +1,252 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .card {
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2, .card h4 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .btn-primary, .btn-success, .btn-warning, .btn-danger {
+    border-radius: 25px;
+    margin-top: 10px;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .circle img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .seating-arrangement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .seat-icon {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .seat-icon:hover {
+    background-color: #0056b3;
+  }
+  
+  .d-flex.align-items-center.justify-content-between {
+    margin-bottom: 5px;
+  }
+  
+  .hall-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .hall-actions .btn {
+    margin-left: 5px;
+  }
+  
+  .block-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .block-card:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .block-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .block-info h4 {
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .block-actions .btn {
+    margin-left: 10px;
+  }
+  
+  .block-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .block-icon img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .block-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .block-info {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .block-icon img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .block-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .block-actions button {
+    margin-right: 10px;
+  }
+  
+  .hall-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .hall-actions button {
+    margin-left: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .seating-preview {
+    margin-top: 20px;
+  }
+  
+  .seat {
+    background-color: #e0e0e0;
+    border: 1px solid #bbb;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .block-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .block-info {
+    cursor: pointer;
+  }
+  
+  .block-icon img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .block-actions {
+    margin-top: 10px;
+  }
+  
+  .hall-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .seating-arrangement {
+    margin-top: 10px;
+  }
+  
+  .seating-arrangement .board {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .seating-arrangement .dias {
+    background-color: #851504;
+    color: #0c5460;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .seating-arrangement .row {
+    background-color:#393d3e;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .seating-arrangement .seat {
+    width: 50px;
+    height: 50px;
+    background-color: #e2e3e5;
+    border: 1px solid #ccc;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
