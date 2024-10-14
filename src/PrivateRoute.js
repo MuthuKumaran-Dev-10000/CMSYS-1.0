@@ -7,7 +7,7 @@ const PrivateRoute = ({ allowedRoles, element }) => {
   const location = useLocation();
 
   if (loading) {
-    return <div>Loading...</div>; // Show a loading spinner or message
+    return <div>Loading...</div>; 
   }
 
   if (!currentUser || !allowedRoles.includes(currentUser.role)) {

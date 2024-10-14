@@ -26,4 +26,4 @@ const db = getDatabase(app);
 
 
 
-export { auth, db };
+export { auth, db};
